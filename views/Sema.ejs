@@ -1,0 +1,37 @@
+<%- include('partials/header') %>
+<div class="Sform">
+ <form action="/stocks/ema" method="post">
+    <label  class="Stock_Text" for="">Select Preffered TimeFrame</label>
+    <select name="TimeFrame" id="TimeFrame">
+        <option class="Stock_Option" value="15MIN">Select</option>
+        <option class="Stock_Option" value="15MIN">15 min</option>
+        <option class="Stock_Option" value="30MIN">30 min</option>
+        <option class="Stock_Option" value="1Hour">1H</option>
+        <option class="Stock_Option" value="2Hour">2H</option>
+        <option class="Stock_Option" value="1Day">1D</option>
+        <option class="Stock_Option" value="1Week">1W</option>
+        <option class="Stock_Option" value="1Month">1M</option>
+       
+    </select>
+   <span class="Stock_Span">
+    <input type="checkbox" name="SavePreference" id="SavePreference">
+    <label class="Stock_Text1" for="">Save Preferences?</label>
+    <span class="Span_btn">
+     <button type="submit" class="glow-button">Execute</button>
+    <button type="reset" class="glow-button-2">Reset</button>
+</span>
+    
+   </span>
+    
+ </form>
+
+
+</div>
+
+<div class="Stock_btn">
+    <h2 class="Stock_Text" class="Stock-Note">*Default value is 15 min, 1M is Preffered for long term gain</h2>
+    <a href="/stocks/ema"></a>
+    
+</div>
+
+<%- include('partials/footer') %>

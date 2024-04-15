@@ -1,0 +1,370 @@
+
+body{
+ background-image: url('./pexels-cottonbro-studio-8721318.jpg');
+
+background-size: cover;
+    /* Resize the background image to cover the entire container */
+    background-attachment: fixed;
+    /* Make sure the entire element is always covered */
+    background-position: center;
+    /* Center the image */
+    background-repeat: no-repeat;
+    /* Do not repeat the image */
+   
+    font-family: "Truculenta", sans-serif;
+ 
+       
+   
+}
+
+/* Header-Page */
+.HeadLi {
+    display: inline;
+    padding-left: 40px;
+}
+
+header {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    background-color: black;
+    top: 0;
+    opacity: 2;
+    z-index: 1;
+}
+
+
+.HeadNav{
+   
+    font-size: 30px;
+    color:#F4FDFF ;
+   
+}
+
+.HeadLink{
+    text-decoration: none;
+    color: #F4FDFF;
+    
+}
+.Rh3 {
+   display: inline; 
+
+}
+/* 
+Registration-page */
+.Rinput{
+    display: block;
+    padding: 10px;
+    padding-left: 33px;
+    margin: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    font-family: "Truculenta", sans-serif;
+     font-size: 20px; 
+}
+
+.Rbtn{
+    margin-left: 10px;
+    padding: 9px 70px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    font-family: "Truculenta", sans-serif;
+    font-size: 20px;
+}
+
+.Rpos {
+    margin: 100px 200px 100px 200px;
+    
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.Updiv {
+    
+    display: flex;
+        justify-content: space-between;
+}
+
+.Rtext{
+    
+    font-family: "Truculenta", sans-serif;
+    font-size: 20px;
+    color: #F4FDFF;
+}
+.Bottomdiv{
+   
+    display: flex;
+        justify-content: space-between;
+        padding: 20px 0px;
+        background-image: url('./pexels-cottonbro-studio-8721318.jpg');
+}
+.Rlog{
+    display: block;
+    padding-top: 20px;
+    padding-left: 10px;
+    font-size: 20px;
+    color: #F4FDFF;
+}
+
+
+.Log{
+ color:rgb(30, 77, 78);
+
+ 
+}
+
+/* Login */
+
+.Linput {
+    display: block;
+    padding: 10px;
+    padding-left: 33px;
+    margin: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    font-family: "Truculenta", sans-serif;
+    font-size: 20px;
+}
+
+.Lbtn {
+    margin-left: 10px;
+    padding: 9px 80px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    font-family: "Truculenta", sans-serif;
+    font-size: 20px;
+}
+
+.Lpos {
+    margin: 100px 200px 100px 200px;
+
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+
+
+.Ltext {
+
+    font-family: "Truculenta", sans-serif;
+    font-size: 20px;
+    color: #F4FDFF;
+}
+
+.Bottomdiv {
+
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+    background-image: url('./pexels-cottonbro-studio-8721318.jpg');
+}
+
+.Llog {
+    display: block;
+    padding-top: 20px;
+    padding-left: 10px;
+    font-size: 20px;
+    color: #F4FDFF;
+}
+
+
+.LLLog {
+    color: rgb(30, 77, 78);
+
+
+}
+/* 
+Modal */
+
+.modal {
+    margin:200px;
+    text-align : center;
+    background-image: url('./pexels-cottonbro-studio-8721318.jpg');
+    opacity: 0.5;
+    color: #F4FDFF;
+}
+
+.modalH1{
+    font-family: "Truculenta", sans-serif;
+}
+.modalLink{
+    color: #F4FDFF;
+    text-decoration: none;
+    text-shadow: 2px 2px red;
+}
+
+/* home */
+.home {
+    margin: 120px 200px 0px 200px;
+    text-align: center;
+    background-image: url('./pexels-cottonbro-studio-8721318.jpg');
+    opacity: 0.9;
+    color: #F4FDFF;
+    /* border: 1px solid red; */
+    /* background-color:gray ; */
+}
+
+.home1{
+margin: 200px;
+    text-align: center;
+    /* background-image: url('./pexels-cottonbro-studio-8721318.jpg'); */
+    opacity: 01;
+    color: #F4FDFF;
+    /* border: 1px solid red; */
+    /* background-color:gray ; */
+    margin-top: 50px;
+   
+}
+
+.Content-Box{
+    color:#F4FDFF ;
+    /* border: 1px solid red; */
+    padding-right: 300px;
+    padding-right: 80px;
+   
+    
+  
+}
+
+.Home-Text{
+  font-size: 20px;
+  padding: 50px 200px 50px 10px;
+  color: red;
+}
+.Home-Design{
+    border: 1px solid gray;
+    background-color: black;
+    border-radius: 25px;
+    opacity: 0.9;
+  
+  
+  
+}
+.Home-Content-Pos-1{
+    position: relative;
+}
+video{
+    height: 30vh;
+    width: 30vh;
+    /* border-style: dotted; */
+   padding-top: 70px;
+    position: absolute;
+   top: 0;
+    right: 0;
+   
+}
+
+.Home-Span{
+display: inline;
+}
+
+.Home-H1{
+    padding-right: 450px;
+    font-size: 40px;
+}
+/* footer */
+
+/* option */
+.Option_Link{
+    font-size: 30px;
+    text-decoration: none;
+    color: red;
+   
+   
+}
+
+.Option1{
+    margin: 200px;
+        text-align: center;
+        /* background-image: url('./pexels-cottonbro-studio-8721318.jpg'); */
+        opacity: 01;
+        color: #F4FDFF;
+        /* border: 1px solid red; */
+        /* background-color:gray ; */
+        margin-bottom: 250px;
+       padding-left: 40px;
+      
+}
+
+.Option_Link:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+/* //stock */
+/* styles.css */
+.glow-button {
+    padding: 10px 20px;
+    font-family: "Truculenta",
+        sans-serif;
+    font-size: 26px;
+    background-color: #03e9f4;
+    color: #F4FDFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease;
+   display: inline;
+    margin: 10px;
+    box-shadow: 0 0 10px #03e9f4, 0 0 20px #03e9f4, 0 0 30px #03e9f4;
+   
+}
+.glow-button-2 {
+    padding: 10px 20px;
+    font-size: 26px;
+    font-family: "Truculenta",sans-serif;
+    background-color: purple;
+    color: #F4FDFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease;
+        margin: 10px;
+        box-shadow: 0 0 10px purple, 0 0 20px purple, 0 0 30px purple;
+}
+
+.glow-button:hover {
+    box-shadow: 0 0 10px purple, 0 0 20px purple, 0 0 30px purple;
+    background-color: purple;
+}
+.glow-button-2:hover {
+    box-shadow: 0 0 10px #03e9f4, 0 0 20px #03e9f4, 0 0 30px #03e9f4;
+        background-color: #03e9f4;
+}
+.Sform{
+    margin: 190px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 0 0 10px #03e9f4, 0 0 20px purple, 0 0 30px #03e9f4 ,0 0 20px purple;
+  
+}
+    
+    
+
+
+.Stock_Text{
+    color: #F4FDFF;
+    display: block;
+    font-size: 20px;
+    margin: 20px;
+}
+.Stock_Text1 {
+    color: #F4FDFF;
+    display: inline;
+    font-size: 20px;
+    
+}
+.Stock_Span{
+    display: block;
+}
+
+#SavePreference{
+    display: inline;
+}
+
+.Span_btn{
+display: block;
+}
